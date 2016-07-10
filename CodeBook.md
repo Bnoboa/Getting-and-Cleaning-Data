@@ -1,5 +1,5 @@
 Code Book
-
+=================
 This code book summarizes the resulting data fields in tidy.txt. Information pertaining to the description of variables in the "Measurements" section is sourced from the "features_info.txt" downloaded as part of the assignment.
 
 The script performeds the following functions, as also mentioned in the README.txt file:
@@ -13,15 +13,16 @@ The script performeds the following functions, as also mentioned in the README.t
     (7) Creates a tidy dataset that consists of the mean values for each variable for each subject and activity combination.
 
 The end result is shown in the file tidy_data.txt.
-Identifiers
 
+Identifiers
+=================
     subject - ID of the test subject
     activity - The type of activity performed when the measurements were taken
 
 Measurements
-
-Feature Selection 
 =================
+Feature Selection 
+
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -67,7 +68,7 @@ tBodyGyroJerkMean
 The complete list of variables of each feature vector is available in 'features.txt'
 
 Activity Labels
-
+=================
     WALKING (value 1): subject walking during the test
     WALKING_UPSTAIRS (value 2): subject walking up a stairs during test
     WALKING_DOWNSTAIRS (value 3): subject walking down a stairs during test
