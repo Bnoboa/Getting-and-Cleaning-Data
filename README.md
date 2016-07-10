@@ -11,3 +11,4 @@ Getting and Cleaning Data Coursera course project. The R script, run_analysis.R,
     (7) Creates a tidy dataset that consists of the mean values for each variable for each subject and activity combination.
 
 The end result is shown in the file tidy_data.txt.
+CodeBook.md contains information about the data variables and the functions the script performs to generate tidy_data.txt
